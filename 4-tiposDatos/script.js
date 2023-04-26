@@ -29,4 +29,4 @@ console.log("El veradero se define con", verdadero)
 
 //Cuando no se asigna ningun valor es de tipo undefined
 let color
-console.log(`Mi color favorito es ${color}`)
+console.log(`Mi color favorito es ${color}`) 

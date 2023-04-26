@@ -93,3 +93,6 @@ La variable ${a} es mayor o igual que ${b}: ${mayorIgual}
 La variable ${a} es menor o igual que ${b}: ${menorIgual}
 La variable ${a} es igual que ${b}: ${igual}
 La variable ${a} es distinta que ${b}: ${distinto}`)
+
+
+// para potencias en con ** doble asterísco
