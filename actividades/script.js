@@ -53,7 +53,32 @@ const minutos = 60
 const horas= 24
 console.log ("Un minuto tiene ", segundos, " segundos, una hora tiene ", minutos, "minutos y un día tiene ", horas, "horas." )
 console.log(`Un minuto tiene ${segundos} segundos, una hora tiene ${minutos} minutos y un día tiene ${horas} horas`)
+console.log("")
 
 // let edad= prompt("Por favor ingresa tu nombre: ")
 // console.log("hola" + ana +  ", bienvenido/a!")
 // alert ("hola" + ana +  ", bienvenido/a!")
+
+/*Actividad 4
+1. Reciba tenga variables que guarden los siguientes datos:
+    1. Nombre.
+    2. Apellido.
+    3. Edad.
+    4. Canción favorita (si no tiene puede dejarlo sin definir undefined)
+    5. Respuesta: en respuesta se debe recibir un true o false dependiendo si entendió el tema de los tipos de datos en JavaScript.
+2. Imprimir el siguiente mensaje.
+“Hola! Mi nombre es nombre apellido y tengo edad años, mi canción favorita es cancion y la respuesta es true/false”*/ 
+console.log("Actividad 4")
+
+let nombre4 = prompt("Por favor ingresa tu nombre")
+let apellido4 = prompt("Por favor ingresa tu apellido")
+let edad4 = prompt("Por favor ingresa tu edad")
+let cancion = prompt("Ingresa tu canción favorita")
+if (cancion==""){
+    let cancion4
+    cancion = cancion4
+}else{
+    cancion = cancion
+}
+let respuesta4 = prompt("¿Entendiste el tema? responde true o false")
+console.log(`Hola! Mi nombre es ${nombre4} ${apellido4} y tengo ${edad4} años, mi canción favorita es `+ cancion + ` y la respuesta es ${respuesta4}`)
